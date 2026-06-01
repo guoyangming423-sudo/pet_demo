@@ -5,7 +5,7 @@ int qwen_tts(const char *text, const char *out_wav){
         return -1;
     }
 
-    struct curl_slist *headers = NULL;   // HTTP 请求头指针
+    struct curl_slist *headers = NULL;    // HTTP 请求头指针
     CURLcode curl_code;
     FILE *f = NULL;
     long http_code = 0;
