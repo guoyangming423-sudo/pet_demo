@@ -44,7 +44,7 @@ WatchFace::WatchFace(QWidget *parent)
             border: none;
         }
     )");
-    locationCard->setFixedSize(90, 40);  // 卡片大小
+    locationCard->setFixedSize(90, 40); // 卡片大小
 
     QHBoxLayout *locationLayout = new QHBoxLayout(locationCard);
     locationLayout->setAlignment(Qt::AlignCenter);
